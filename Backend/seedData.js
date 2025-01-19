@@ -10,7 +10,7 @@ const seedData = async () => {
   try {
     console.log("Connecting to MongoDB...");
     await mongoose.connect(
-      "mongodb+srv://admin:5nGy0DXhrTvmNoBt@tnpprojectstudent.baeal.mongodb.net/?retryWrites=true&w=majority&appName=TNPProjectStudent"
+      "your_db"
     );
     console.log("Connected to MongoDB");
 
