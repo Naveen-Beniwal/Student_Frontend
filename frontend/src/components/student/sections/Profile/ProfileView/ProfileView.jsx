@@ -12,6 +12,7 @@ import {
   Link,
   Fade,
   Grow,
+  Tooltip,
 } from "@mui/material";
 import {
   School,
@@ -67,15 +68,58 @@ const ProfileView = ({ student, onEdit }) => {
                 {student?.personalInfo?.batch}
               </Typography>
               <Box className="flex gap-3 mt-3">
-                <IconButton size="small" sx={{ color: "white" }}>
-                  <GitHub />
-                </IconButton>
-                <IconButton size="small" sx={{ color: "white" }}>
-                  <LinkedIn />
-                </IconButton>
-                <IconButton size="small" sx={{ color: "white" }}>
-                  <Email />
-                </IconButton>
+                {student?.socialLinks?.github && (
+                  <Tooltip title="GitHub Profile">
+                    <IconButton
+                      size="small"
+                      sx={{
+                        color: "white",
+                        "&:hover": {
+                          backgroundColor: "rgba(255,255,255,0.1)",
+                        },
+                      }}
+                      href={student.socialLinks.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GitHub />
+                    </IconButton>
+                  </Tooltip>
+                )}
+                {student?.socialLinks?.linkedIn && (
+                  <Tooltip title="LinkedIn Profile">
+                    <IconButton
+                      size="small"
+                      sx={{
+                        color: "white",
+                        "&:hover": {
+                          backgroundColor: "rgba(255,255,255,0.1)",
+                        },
+                      }}
+                      href={student.socialLinks.linkedIn}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <LinkedIn />
+                    </IconButton>
+                  </Tooltip>
+                )}
+                {student?.secondaryEmail && (
+                  <Tooltip title="Send Email">
+                    <IconButton
+                      size="small"
+                      sx={{
+                        color: "white",
+                        "&:hover": {
+                          backgroundColor: "rgba(255,255,255,0.1)",
+                        },
+                      }}
+                      href={`mailto:${student.secondaryEmail}`}
+                    >
+                      <Email />
+                    </IconButton>
+                  </Tooltip>
+                )}
               </Box>
             </Box>
             <Button

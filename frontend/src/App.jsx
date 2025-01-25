@@ -11,6 +11,7 @@ import ResumeBuilder from "./components/student/sections/resume/ResumeBuilder";
 import ProfileSection from "./components/student/sections/Profile/ProfileSection";
 import JobSection from "./components/student/sections/jobs/JobSection";
 import NotificationsSection from "./components/student/sections/NotificationSection";
+
 const App = () => {
   return (
     <BrowserRouter>
