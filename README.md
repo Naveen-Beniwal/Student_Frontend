@@ -2,6 +2,7 @@
 
 <div align="center">
   <img src="./frontend/src/assets/dashboard.png" alt="Dashboard Preview" width="800"/>
+  No backlogs in real 😁 , just for testing purpose .
   <img src="./frontend/src/assets/editDashboard.png" alt="Dashboard Preview" width="800"/>
   <img src="./frontend/src/assets/resume.png" alt="Dashboard Preview" width="800"/>
   
