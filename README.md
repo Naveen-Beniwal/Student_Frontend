@@ -2,6 +2,8 @@
 
 <div align="center">
   <img src="./frontend/src/assets/dashboard.png" alt="Dashboard Preview" width="800"/>
+  <img src="./frontend/src/assets/editDashboard.png" alt="Dashboard Preview" width="800"/>
+  <img src="./frontend/src/assets/resume.png" alt="Dashboard Preview" width="800"/>
   
   > Modern placement management system built with MERN stack
 </div>
@@ -28,7 +30,10 @@ bash
 cd ../frontend
 npm install
 npm run dev
+
 # Visit http://localhost:5173
+
+
 🌟 Key Features
 Profile Management
 Resume builder with templates
@@ -45,11 +50,14 @@ Personal progress tracking
 Placement statistics
 Interactive dashboards
 Performance metrics
-📸 Screenshots
-View Screenshots
+
+
 🛠️ Tech Stack
+
 Frontend: React.js, TailwindCSS, Chart.js
+
 Backend: Node.js, Express.js, MongoDB
+
 Authentication: JWT with refresh tokens
 
 🤝 Support
