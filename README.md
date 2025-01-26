@@ -51,19 +51,7 @@ View Screenshots
 Frontend: React.js, TailwindCSS, Chart.js
 Backend: Node.js, Express.js, MongoDB
 Authentication: JWT with refresh tokens
-📝 Adding Screenshots
-Create a screenshots folder in public:
-bash
-mkdir public/screenshots
-Add your screenshots:
-bash
-# Recommended screenshot names
-dashboard.png
-profile.png
-analytics.png
-Reference in README:
-Markdown
-<img src="./public/screenshots/your-image.png" alt="Description" width="600"/>
+
 🤝 Support
 For issues or queries, reach out at naveenbeniwal00001@gmail.com
 
