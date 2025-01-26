@@ -8,6 +8,10 @@
 
   
   <img src="./frontend/src/assets/editDashboard.png" alt="Dashboard Preview" width="800"/>
+
+  Automatic Resume Generation with realtime database data .
+
+  
   <img src="./frontend/src/assets/resume.png" alt="Dashboard Preview" width="800"/>
   
   > Modern placement management system built with MERN stack
