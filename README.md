@@ -1,7 +1,7 @@
 # 🎓 Campus Placement Portal - Student Dashboard
 
 <div align="center">
-  <img src="./public/dashboard-preview.png" alt="Dashboard Preview" width="800"/>
+  <img src="./frontend/src/assets/dashborad.png" alt="Dashboard Preview" width="800"/>
   
   > Modern placement management system built with MERN stack
 </div>
